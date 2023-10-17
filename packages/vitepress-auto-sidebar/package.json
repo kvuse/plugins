@@ -1,0 +1,17 @@
+{
+  "name": "plugin-vitepress-auto-sidebar",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "vitepress 自动生成侧边栏",
+  "main": "index.js",
+  "keywords": [
+    "vitepress",
+    "vite",
+    "plugin-vitepress-auto-sidebar"
+  ],
+  "author": "wenxin",
+  "license": "ISC",
+  "dependencies": {
+    "zx": "^7.2.3"
+  }
+}

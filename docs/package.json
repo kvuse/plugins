@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "clean": "rm -rf node_modules */node_modules **/*/node_modules"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "vitepress": "^1.0.0-rc.22",
+    "vitepress-auto-sidebar": "../packages/vitepress-auto-sidebar"
+  },
+  "module": "index.js",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

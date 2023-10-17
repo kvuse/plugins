@@ -1,0 +1,36 @@
+{
+  "name": "plugins",
+  "version": "1.0.0",
+  "description": "vite插件，方便开发使用",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "plugins"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules */node_modules **/*/node_modules"
+  },
+  "author": "wenxin",
+  "license": "ISC",
+  "devDependencies": {
+    "@kvuse/eslint-config": "^1.0.4",
+    "@kvuse/stylelint-config": "^1.0.2",
+    "stylelint": "^15.10.3",
+    "unplugin-vue-macros": "^2.6.1",
+    "vitest": "^0.34.6",
+    "bun-types": "latest"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "4.4.11",
+    "vue": "^3.3.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "docs/*"
+  ]
+}
